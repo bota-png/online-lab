@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Earthworm Dissection Lab</title>
+  <title>Жауынқұртты Виртуалды Тілгілеу Зертханасы</title>
   <style>
     body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 0; padding: 0; }
     header { background: #4CAF50; color: white; padding: 1em; text-align: center; }
@@ -17,79 +17,72 @@
 </head>
 <body>
   <header>
-    <h1>Interactive Earthworm Dissection Lab</h1>
+    <h1>Жауынқұртты Виртуалды Тілгілеу Зертханасы</h1>
   </header>
 
   <section>
-    <h2>1. 🧪 Pre-Lab: Context & Safety</h2>
-    <p>Watch this short video to understand earthworms' role in ecosystems.</p>
-    <iframe src="https://www.youtube.com/embed/78E1TxZp1y8" allowfullscreen></iframe>
-    <p><strong>Click gloves below to view lab safety rules:</strong></p>
+    <h2>1. 🧪 Алдын ала дайындық: Мәтін және қауіпсіздік</h2>
+    <p>Жауынқұрттың экожүйедегі рөлі туралы бейнеролик:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YSb-Vs_CHdA?si=e4sLiklHUD9_QfXO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p><strong>Төмендегі белгішелерді басып, зертхана қауіпсіздігі ережелерімен танысыңыз:</strong></p>
     <div class="tools">
-      <img src="https://cdn-icons-png.flaticon.com/512/1010/1010982.png" title="Wear gloves">
-      <img src="https://cdn-icons-png.flaticon.com/512/1027/1027073.png" title="Handle tools carefully">
-      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" title="Dispose of waste properly">
+      <img src="https://cdn-icons-png.flaticon.com/512/1010/1010982.png" title="Қолғап киіңіз">
+      <img src="https://cdn-icons-png.flaticon.com/512/1027/1027073.png" title="Құралдарды дұрыс ұстаңыз">
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" title="Қалдықтарды дұрыс жойыңыз">
     </div>
   </section>
 
   <section>
-    <h2>2. 📚 Vocabulary Preview</h2>
+    <h2>2. 📚 Терминдермен танысу</h2>
     <div class="flashcards">
-      <div class="flashcard">Clitellum</div>
-      <div class="flashcard">Setae</div>
-      <div class="flashcard">Septa</div>
-      <div class="flashcard">Aortic Arches</div>
+      <div class="flashcard">Клителлум</div>
+      <div class="flashcard">Сеталар</div>
+      <div class="flashcard">Септалар</div>
+      <div class="flashcard">Аорталық доғалар</div>
     </div>
-    <p style="margin-top: 1em;">Match each term to its place on the diagram below:</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Earthworm_internal_anatomy_labelled.png" alt="Earthworm Diagram">
+    <p style="margin-top: 1em;">Әр терминді төмендегі суреттегі сәйкес бөліктермен сәйкестендіріңіз:</p>
+    <img src="https://ust.kz/images/materials/1691052584_bf0a6b96d8e9b84d59a388dc693f11bb.jpg" alt="Жауынқұрттың ішкі құрылысы">
   </section>
 
   <section>
-    <h2>3. 🛠️ Tools & 3D Exploration</h2>
-    <p>Select a tool below to interact with the virtual earthworm.</p>
+    <h2>3. 🛠️ Құралдар мен 3D үлгі</h2>
+    <p>Жауынқұртпен өзара әрекеттесу үшін құралды таңдаңыз.</p>
     <div class="tools">
-      <img src="https://cdn-icons-png.flaticon.com/512/3669/3669992.png" title="Scalpel">
-      <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" title="Forceps">
-      <img src="https://cdn-icons-png.flaticon.com/512/6255/6255664.png" title="Pin">
+      <img src="https://cdn-icons-png.flaticon.com/512/3669/3669992.png" title="Скалпель">
+      <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" title="Пинцет">
+      <img src="https://cdn-icons-png.flaticon.com/512/6255/6255664.png" title="Түйреуіш">
     </div>
-    <p><strong>Explore a 3D Earthworm Model (rotate, zoom):</strong></p>
-    <iframe title="3D Earthworm" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" 
-      src="https://sketchfab.com/models/58dbf4dbd3f546cf94e293820fa0436e/embed" width="100%" height="480">
+    <p><strong>3D модельдерді зерттеңіз:</strong></p>
+    <p><a href="https://www.sciencelearn.org.nz/image_maps/24-inside-of-an-earthworm" target="_blank">Жауынқұрттың 2D анатомиясы (ScienceLearn)</a></p>
+    <iframe title="3D Жауынқұрт моделі" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" 
+      src="https://sketchfab.com/models/605e4e2accaa416b971d0c1849df1e05/embed" width="100%" height="480">
     </iframe>
   </section>
 
   <section>
-    <h2>4. 🧬 Guided Dissection Protocol</h2>
+    <h2>4. 🧬 Жетекші тілгілеу нұсқаулығы</h2>
     <ol>
-      <li>Label external parts: dorsal, ventral, clitellum, setae</li>
-      <li>Use the scalpel tool to simulate a mid-dorsal incision</li>
-      <li>Pin the skin and explore digestive, circulatory, nervous systems</li>
-      <li>Click organs to hear audio descriptions (planned in next version)</li>
+      <li>Сыртқы бөліктерді белгілеңіз: арқа, құрсақ, клителлум, сеталар</li>
+      <li>Скалпельді қолданып, арқа бойымен тілгілеңіз</li>
+      <li>Тері бөліктерін түйреуішпен бекітіп, ішкі жүйелерді зерттеңіз</li>
+      <li>Органдарды басқанда, сипаттама есту мүмкіндігі (келесі нұсқада)</li>
     </ol>
   </section>
 
   <section>
-    <h2>5. 📝 Assessment</h2>
-    <p><strong>Pre-Lab:</strong></p>
-    <ol>
-      <li>Why are earthworms considered ecosystem engineers?</li>
-      <li>Predict how the clitellum aids reproduction.</li>
-    </ol>
-    <p><strong>Post-Lab:</strong></p>
-    <ol>
-      <li>Label the gizzard, crop, intestine, and aortic arches.</li>
-      <li>Explain how the absence of lungs affects gas exchange in worms.</li>
-    </ol>
-    <textarea placeholder="Write your answers here..." rows="6" style="width: 100%; padding: 1em;"></textarea>
+    <h2>5. 📝 Тест</h2>
+    <p>Төмендегі сұрақтарға жауап беріңіз:</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdb1heNj-rVRvCtFVYeMtCQfyxWd-PEgSslDqa3kzdUbC-Epw/viewform?embedded=true" width="640" height="1740" frameborder="0" marginheight="0" marginwidth="0">Жүктелуде...</iframe>
   </section>
 
   <section>
-    <h2>📄 Downloadable Resources</h2>
+    <h2>📄 Жүктеуге арналған ресурстар</h2>
     <ul>
-      <li><a href="https://www.teachengineering.org/content/cub_/lessons/cub_biotech/cub_biotech_lesson01_activity2_dissectionworksheet.pdf" target="_blank">Student Worksheet (PDF)</a></li>
-      <li><a href="https://sketchfab.com/3d-models/earthworm-cross-section-4c2bbdbacb6d43e3a8c20e3fdb87486c" target="_blank">3D Earthworm Cross-Section (GLB)</a></li>
-      <li><a href="https://ngss.nsta.org/" target="_blank">NGSS Aligned Resources</a></li>
+      <li><a href="https://www.teachengineering.org/content/cub_/lessons/cub_biotech/cub_biotech_lesson01_activity2_dissectionworksheet.pdf" target="_blank">Оқушыға арналған жұмыс парағы (PDF)</a></li>
+      <li><a href="https://sketchfab.com/3d-models/earthworm-cross-section-4c2bbdbacb6d43e3a8c20e3fdb87486c" target="_blank">3D Жауынқұрт көлденең қимасы (GLB)</a></li>
+      <li><a href="https://ngss.nsta.org/" target="_blank">NGSS стандарттарына сәйкес материалдар</a></li>
     </ul>
   </section>
 </body>
 </html>
+
